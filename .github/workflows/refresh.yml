@@ -1,0 +1,37 @@
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: "30 19 * * *" # 01:00 in India
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --omit=dev
+      - run: npm run fetch
+      - run: npm run build
+      - run: npm run check
+      - name: Commit if anything changed
+        run: |
+          git add data/activity.json assets README.md
+          if git diff --cached --quiet; then echo "No change."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh activity"
+          git pull --rebase
+          git push

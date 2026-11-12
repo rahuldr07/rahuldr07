@@ -1,0 +1,45 @@
+{
+  "host": "dileesh@blr",
+  "site": "dileeshrahul.dev",
+  "session": [
+    { "cmd": "whoami", "out": [
+      { "big": true, "spans": [["Dileesh Rahul", "strong"]] },
+      { "spans": [["software engineer · bengaluru · web apps, end to end", "dim"]] }
+    ]},
+    { "cmd": "gocalc \"100 degF in degC\"", "out": [
+      { "spans": [["340/9", "amber"], ["  ≈ 37.7777777778 degC", "dim"], ["  exact", "green"]] }
+    ]},
+    { "cmd": "gocalc \"5 m + 3 s\"", "out": [
+      { "spans": [["cannot add length (m) and time (s)", "red"]] }
+    ]},
+    { "cmd": "ls ~/projects", "out": [
+      { "spans": [["go-calc  xray  devnotes  streakforge  finance-api", "amber"]] }
+    ]}
+  ],
+  "sessionStatus": { "left": "0:zsh", "mid": ["go · ts · py · postgres"], "right": "dileeshrahul.dev" },
+  "fetch": {
+    "title": ["dileesh", "@", "bengaluru"],
+    "rows": [
+      ["role", "software engineer"],
+      ["stack", "go · typescript · python"],
+      ["db", "postgresql"],
+      ["front", "react · next.js"],
+      ["now", "go-calc web front end"],
+      ["site", "dileeshrahul.dev"]
+    ]
+  },
+  "fetchStatus": { "left": "0:zsh", "mid": ["main ✓"], "right": "refreshed daily" },
+  "readme": {
+    "intro": "Hi, I'm Dileesh, a software engineer in Bengaluru.\n\nI build web apps end to end: the database, the API and the screens in front of them. Most of my work so far has been in Go, TypeScript and Python on PostgreSQL, with React on the front.",
+    "projectsHeading": "Some things I've built:",
+    "projects": [
+      { "name": "go-calc", "url": "https://github.com/rahuldr07/go-calc", "line": "a calculator where every answer is exact, proven to guaranteed digits, an estimate with its uncertainty, or refused with the reason. One Go engine runs in the browser as WebAssembly, on the command line and over HTTP.", "extra": ["Try it", "https://rahuldr07.github.io/go-calc/"] },
+      { "name": "XRAY", "url": "https://github.com/rahuldr07/xray-extension", "line": "a DevTools extension that captures fetch and XHR traffic and shows the decrypted response." },
+      { "name": "DevNotes", "url": "https://github.com/rahuldr07/DevNotes", "line": "notes and snippets with ranked full-text search on PostgreSQL.", "extra": ["Live", "https://dev-notes-gilt.vercel.app"] },
+      { "name": "StreakForge", "url": "https://github.com/rahuldr07/streakforge", "line": "a small Go CLI for habits and streaks, kept in one local JSON file." },
+      { "name": "Personal Finance API", "url": "https://github.com/rahuldr07/personal-finance-api", "line": "a FastAPI backend for expenses, budgets and recurring bills." }
+    ],
+    "after": "I've also had two pull requests merged into [Cherry Studio](https://github.com/CherryHQ/cherry-studio).",
+    "outro": "More about me at [dileeshrahul.dev](https://dileeshrahul.dev) or on [LinkedIn](https://www.linkedin.com/in/dileesh-rahul-7a659622b/)."
+  }
+}

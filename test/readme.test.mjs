@@ -19,7 +19,7 @@ test("readme has two themed pictures with alt text and versioned urls", () => {
   assert.match(md, /media="\(prefers-color-scheme: light\)" srcset="assets\/fetch-light\.svg\?v=dddddddd"/);
   assert.match(md, /alt="say &quot;hi&quot;"/);
   assert.match(md, /\[go-calc\]\(https:\/\/github\.com\/rahuldr07\/go-calc\)/);
-  assert.match(md, /\[Try it\]\(https:\/\/rahuldr07\.github\.io\/go-calc\/\)/);
+  assert.match(md, /\[Try it\]\(https:\/\/calc\.dileeshrahul\.dev\/\)/);
 });
 
 test("a missing hash is an error, not a silent ?v=undefined", () => {

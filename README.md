@@ -18,7 +18,7 @@ I build web apps end to end: the database, the API and the screens in front of t
 
 Some things I've built:
 
-- [go-calc](https://github.com/rahuldr07/go-calc): a calculator where every answer is exact, proven to guaranteed digits, an estimate with its uncertainty, or refused with the reason. One Go engine runs in the browser as WebAssembly, on the command line and over HTTP. [Try it](https://rahuldr07.github.io/go-calc/).
+- [go-calc](https://github.com/rahuldr07/go-calc): a calculator where every answer is exact, proven to guaranteed digits, an estimate with its uncertainty, or refused with the reason. One Go engine runs in the browser as WebAssembly, on the command line and over HTTP. [Try it](https://calc.dileeshrahul.dev/).
 - [XRAY](https://github.com/rahuldr07/xray-extension): a DevTools extension that captures fetch and XHR traffic and shows the decrypted response.
 - [DevNotes](https://github.com/rahuldr07/DevNotes): notes and snippets with ranked full-text search on PostgreSQL. [Live](https://dev-notes-gilt.vercel.app).
 - [StreakForge](https://github.com/rahuldr07/streakforge): a small Go CLI for habits and streaks, kept in one local JSON file.

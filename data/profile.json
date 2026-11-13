@@ -33,7 +33,7 @@
     "intro": "Hi, I'm Dileesh, a software engineer in Bengaluru.\n\nI build web apps end to end: the database, the API and the screens in front of them. Most of my work so far has been in Go, TypeScript and Python on PostgreSQL, with React on the front.",
     "projectsHeading": "Some things I've built:",
     "projects": [
-      { "name": "go-calc", "url": "https://github.com/rahuldr07/go-calc", "line": "a calculator where every answer is exact, proven to guaranteed digits, an estimate with its uncertainty, or refused with the reason. One Go engine runs in the browser as WebAssembly, on the command line and over HTTP.", "extra": ["Try it", "https://rahuldr07.github.io/go-calc/"] },
+      { "name": "go-calc", "url": "https://github.com/rahuldr07/go-calc", "line": "a calculator where every answer is exact, proven to guaranteed digits, an estimate with its uncertainty, or refused with the reason. One Go engine runs in the browser as WebAssembly, on the command line and over HTTP.", "extra": ["Try it", "https://calc.dileeshrahul.dev/"] },
       { "name": "XRAY", "url": "https://github.com/rahuldr07/xray-extension", "line": "a DevTools extension that captures fetch and XHR traffic and shows the decrypted response." },
       { "name": "DevNotes", "url": "https://github.com/rahuldr07/DevNotes", "line": "notes and snippets with ranked full-text search on PostgreSQL.", "extra": ["Live", "https://dev-notes-gilt.vercel.app"] },
       { "name": "StreakForge", "url": "https://github.com/rahuldr07/streakforge", "line": "a small Go CLI for habits and streaks, kept in one local JSON file." },

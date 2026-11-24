@@ -7,9 +7,9 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/fetch-dark.svg?v=1b66c8a9">
-  <source media="(prefers-color-scheme: light)" srcset="assets/fetch-light.svg?v=217f0b06">
-  <img alt="Terminal card for dileesh@bengaluru. role: software engineer, stack: go · typescript · python, db: postgresql, front: react · next.js, now: go-calc web front end, site: dileeshrahul.dev. 6,831 contributions in the last 12 months." src="assets/fetch-dark.svg?v=1b66c8a9" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/fetch-dark.svg?v=c691e6bf">
+  <source media="(prefers-color-scheme: light)" srcset="assets/fetch-light.svg?v=2762ada9">
+  <img alt="Terminal card for dileesh@bengaluru. role: software engineer, stack: go · typescript · python, db: postgresql, front: react · next.js, now: go-calc web front end, site: dileeshrahul.dev. 6,859 contributions in the last 12 months." src="assets/fetch-dark.svg?v=c691e6bf" width="100%">
 </picture>
 
 Hi, I'm Dileesh, a software engineer in Bengaluru.
